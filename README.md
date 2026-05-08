@@ -29,7 +29,7 @@ TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け
 
 ・TypeScript書類.tsなどをGo言語でコンパイル  
 　「tsgo TypeScript書類.ts」  
-※TypeScript ver.7 ベータ版（2026年4月）から
+※TypeScript ver.7 ベータ版（2026年4月）からリリースで、劇的に速度が早くなる
 
 ・TypeScriptの設定書類「tsconfig.json」書類を作る  
 　「npx tsc --init」  
