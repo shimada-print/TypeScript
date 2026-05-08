@@ -1,4 +1,4 @@
-// Hello TypeScript.ts
+// HelloTypeScript.ts
 
 // メッセージを定義
 const message: string = "ようこそ、TypeScriptの世界へ";
