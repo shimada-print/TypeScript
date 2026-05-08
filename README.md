@@ -8,50 +8,50 @@ TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け
 
 ## TypeScript関連コマンド
 ### インストールや環境設定
-・TypeScriptをインストール  
-　「npm install -g typescript」  
+* TypeScriptをインストール  
+「npm install -g typescript」  
  ※この前にnode.jsをインストールしてください  
 
-・インストールできたかをバージョンで確認  
-　「tsc -v」  
-　「npx tsc -v」  
+* インストールできたかをバージョンで確認  
+「tsc -v」  
+「npx tsc -v」  
 ※現実的にはnpxは使うので「npx tsc -v」  
 
 ### プログラミングをする
-・TypeScript書類.tsなどを実行  
-　「npx ts-node TypeScript書類.ts」  
+* TypeScript書類.tsなどを実行  
+「npx ts-node TypeScript書類.ts」  
 
-・TypeScript書類.tsなどをJavaScriptにコンパイル  
-　「tsc TypeScript書類.ts」  
+* TypeScript書類.tsなどをJavaScriptにコンパイル  
+「tsc TypeScript書類.ts」  
 
-・TypeScript書類.jsなどを実行  
-　「node TypeScript書類.js」  
+* TypeScript書類.jsなどを実行  
+「node TypeScript書類.js」  
 
-・TypeScript書類.tsなどをGo言語でコンパイル  
-　「tsgo TypeScript書類.ts」  
+* TypeScript書類.tsなどをGo言語でコンパイル  
+「tsgo TypeScript書類.ts」  
 ※TypeScript ver.7 ベータ版（2026年4月）からリリースで、劇的に速度が早くなる
 
-・TypeScriptの設定書類「tsconfig.json」書類を作る  
-　「npx tsc --init」  
+* TypeScriptの設定書類「tsconfig.json」書類を作る  
+「npx tsc --init」  
 ※これが無いとTypeScriptだと認識せずに動かない場合もある  
 ※コマンドを実行したフォルダーに書類が出来る  
 
 ### スマホのアプリを（React Native + TypeScript + expoなどで）開発し公開
-・expoでプロジェクトを作成  
-　「npx create-expo-app MyProject --template expo-template-blank-typescript」  
+* expoでプロジェクトを作成  
+「npx create-expo-app MyProject --template expo-template-blank-typescript」  
 
-・ プロジェクトをまとめる（package.jsonを作成）  
-　「npm init -y」  
+* プロジェクトをまとめる（package.jsonを作成）  
+「npm init -y」  
 
-・ ビルドツールのインストール（最初の1回のみ）  
-　「npm install -g eas-cli」  
+* ビルドツールのインストール（最初の1回のみ）  
+「npm install -g eas-cli」  
 
-・ Android用のファイル (.apk / .aab)を作る  
-　「eas build --platform android」  
+* Android用のファイル (.apk / .aab)を作る  
+「eas build --platform android」  
 ※.apkはスマホに直接入れるテスト（動作確認）用で、.aabはGoogleストアで公開用（完成品）  
 
-・ iPhone（iOS）用のファイル (.ipa)を作る  
-　「eas build --platform ios」  
+* iPhone（iOS）用のファイル (.ipa)を作る  
+「eas build --platform ios」  
 
 ### なぜReact NativeでTypeScriptを使うのか？　～TypeScriptは開発しやすい～
 
