@@ -35,7 +35,7 @@ TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け
 ※コマンドを実行したフォルダーに書類が出来る  
 
 ### スマホのアプリを（React Native + TypeScript + expoなどで）作る
-・expoでプロジェクトを作成
+・expoでプロジェクトを作成  
 　「npx create-expo-app MyProject --template expo-template-blank-typescript」  
 
 ・ プロジェクトをまとめる（package.jsonを作成）  
