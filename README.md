@@ -8,7 +8,7 @@ TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け
 
 ## TypeScript関連コマンド
 ### インストールや環境設定
-・TypeScriptをインストール 
+・TypeScriptをインストール  
 　「npm install -g typescript」  
  ※この前にnode.jsをインストールしてください  
 
