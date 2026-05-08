@@ -35,10 +35,11 @@ npx ts-node  App.tsx
 ```bash
 tsc App.tsx
 ```
+`App.js`が生成される
 
 * JavaScript書類を実行  
 ```bash
-node App.jsx
+node App.js
 ```
 
 * Go言語でコンパイル  
