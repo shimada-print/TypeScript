@@ -22,7 +22,7 @@ npx tsc -v
 ※現実的にはnpxは使うので「`npx tsc -v`」  
 
 ### プログラミングをする
-現実的にTypeScriptで開発で、多く使用する書類名は「App.tsx」です。
+現実的にTypeScriptで開発で、多く使用する書類名は「`App.tsx`」です。`App.tsx`はサーバーサイドスクリプトだとWebブラウザが最初に読み込む、index.htmlのようなもので、コンパイル後の`App.js`をWebブラウザが最初に読み込みます。
 
 * TypeScriptで実行  
 ```bash
