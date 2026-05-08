@@ -53,7 +53,7 @@ TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け
 ・ iPhone（iOS）用のファイル (.ipa)を作る  
 　「eas build --platform ios」  
 
-### なぜReact NativeでTypeScriptを使うのか？
+### なぜReact NativeでTypeScriptを使うのか？　～TypeScriptは冗長ではなく早い～
 
 それはスマホのアプリの開発特有の理由があります。
 
