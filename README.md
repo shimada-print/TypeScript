@@ -64,7 +64,7 @@ npx create-expo-app MyProject --template expo-template-blank-typescript
 npm init -y
 ```
 
-* コンパイルする
+* コンパイルする　　
 上記の「TypeScript書類.tsなどをJavaScriptにコンパイル」か、  
 下記の「一括でコンパイルする（実際の大規模システムなどでの開発方法）」を参照
 
@@ -73,13 +73,14 @@ npm init -y
 npm install -g eas-cli
 ```  
 
-* Android用のファイル (.apk / .aab)を作る  
+* ビルドする
+🔨Android用のファイル (.apk / .aab)を作る  
 ```bash
 eas build --platform android
 ```
 ※.apkはスマホに直接入れるテスト（動作確認）用で、.aabはGoogleストアで公開用（完成品）  
 
-* iPhone（iOS）用のファイル (.ipa)を作る  
+🔨iPhone（iOS）用のファイル (.ipa)を作る
 ```bash
 eas build --platform ios
 ```
