@@ -75,7 +75,7 @@ React Nativeの部品（`<View>` や `<Text>`）には、Web（HTMLなどを使�
 * 計算ロジック
 * APIからデータを取得する処理
 
-####.tsx （TypeScript + JSX）
+#### .tsx （TypeScript + JSX）
 **React や React Native で「画面（UI）」を作るため**のファイルです。
 
 * **中身:** TypeScriptの中に、HTMLによく似た「JSX（JavaScript XML）」という書き方が混ざります。
