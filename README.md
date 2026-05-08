@@ -3,55 +3,55 @@
 TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け言語です。JavaScriptの全ての機能を備えた「超集合（スーパーセット）」であり、2026年現在、Webサイト構築におけるフロントエンドからサーバーサイドまでを担う主要な言語となっています。  
 
 最大の特長は、プログラムを実行する前の「コンパイル」段階でエラーを検知できる点です。これにより、開発者はデータの種類（数値や文字列など）を厳格に管理でき、大規模な開発でもバグの混入を劇的に減らすことができます。  
-
+function add(a: number, b: number) { ... }
 また、エディタによるコード補完が強力に働くため、開発スピードと品質を同時に高められるのが強みです。現代のシステム開発において、実行時までエラーが判明しないリスクを避け、安全かつ効率的にコードを書き進めるための「業界標準」のツールとして定着しています  。 
 
 ## TypeScript関連コマンド
 ### インストールや環境設定
 * TypeScriptをインストール  
-「npm install -g typescript」  
+`npm install -g typescript`  
  ※この前にnode.jsをインストールしてください  
 
 * インストールできたかをバージョンで確認  
-「tsc -v」  
-「npx tsc -v」  
-※現実的にはnpxは使うので「npx tsc -v」  
+`tsc -v`  
+`npx tsc -v`  
+※現実的にはnpxは使うので「`npx tsc -v`」  
 
 ### プログラミングをする
 * TypeScript書類.tsなどを実行  
-「npx ts-node TypeScript書類.ts」  
+`npx ts-node TypeScript書類.ts`  
 
 * TypeScript書類.tsなどをJavaScriptにコンパイル  
-「tsc TypeScript書類.ts」  
+`tsc TypeScript書類.ts`  
 
 * TypeScript書類.jsなどを実行  
-「node TypeScript書類.js」  
+`node TypeScript書類.js`  
 
 * TypeScript書類.tsなどをGo言語でコンパイル  
-「tsgo TypeScript書類.ts」  
+`tsgo TypeScript書類.ts`  
 ※TypeScript ver.7 ベータ版（2026年4月）からリリースで、劇的に速度が早くなる
 
 * TypeScriptの設定書類「tsconfig.json」書類を作る  
-「npx tsc --init」  
+`npx tsc --init`  
 ※これが無いとTypeScriptだと認識せずに動かない場合もある  
 ※コマンドを実行したフォルダーに書類が出来る  
 
 ### スマホのアプリを（React Native + TypeScript + expoなどで）開発し公開
 * expoでプロジェクトを作成  
-「npx create-expo-app MyProject --template expo-template-blank-typescript」  
+`npx create-expo-app MyProject --template expo-template-blank-typescript`  
 
 * プロジェクトをまとめる（package.jsonを作成）  
-「npm init -y」  
+`npm init -y`  
 
 * ビルドツールのインストール（最初の1回のみ）  
-「npm install -g eas-cli」  
+`npm install -g eas-cli`  
 
 * Android用のファイル (.apk / .aab)を作る  
-「eas build --platform android」  
+`eas build --platform android`  
 ※.apkはスマホに直接入れるテスト（動作確認）用で、.aabはGoogleストアで公開用（完成品）  
 
 * iPhone（iOS）用のファイル (.ipa)を作る  
-「eas build --platform ios」  
+`eas build --platform ios`  
 
 ### なぜReact NativeでTypeScriptを使うのか？　～TypeScriptは開発しやすい～
 
