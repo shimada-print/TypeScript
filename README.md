@@ -1,4 +1,4 @@
-# TypeScript
+# TypeScript 速習
 ## TypeScriptの要約
 TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け言語です。JavaScriptの全ての機能を備えた「超集合（スーパーセット）」であり、2026年現在、Webサイト構築におけるフロントエンドからサーバーサイドまでを担う主要な言語となっています。  
 
