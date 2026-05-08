@@ -6,7 +6,7 @@ TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け
 
 ## TypeScript関連コマンド
 ### インストールや環境設定
-* Node.jsをインストール 
+* Node.jsをインストール   
 Windows
 ```bash
 nvm install --lts
