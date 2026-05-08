@@ -69,8 +69,8 @@ React Nativeの部品（`<View>` や `<Text>`）には、Web（HTMLなどを使�
 **ロジックや計算、データ処理**専用のファイルです。
 
 * **中身:** 変数、関数、クラス、型の定義など。
-* **中身の例:** `function add(a: number, b: number) { ... }`
-* **用途:**
+* **中身の例:** `function add(a: number, b: number) { ... }`  
+**用途:**
 * サーバーサイドの処理（Node.jsなど）
 * 計算ロジック
 * APIからデータを取得する処理
@@ -79,7 +79,7 @@ React Nativeの部品（`<View>` や `<Text>`）には、Web（HTMLなどを使�
 **React や React Native で「画面（UI）」を作るため**のファイルです。
 
 * **中身:** TypeScriptの中に、HTMLによく似た「JSX（JavaScript XML）」という書き方が混ざります。
-* **中身の例:** `return <View><Text>こんにちは</Text></View>`
+* **中身の例:** `return <View><Text>こんにちは</Text></View>`  
 **用途:**
 * スマホアプリの画面表示
 * Webサイトのコンポーネント作成
