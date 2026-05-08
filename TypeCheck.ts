@@ -4,7 +4,7 @@ const userAge: number = 25;
 const isSuccess: boolean = true;
 
 // 2. 配列の型
-const techStack: string[] = ["TypeScript", "Node.js", "VBScript"];
+const techStack: string[] = ["TypeScript", "Python", "Go"];
 
 // 3. オブジェクトの型（インターフェース）
 interface UserProfile {
