@@ -32,4 +32,21 @@ TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け
 ・TypeScriptの設定書類「tsconfig.json」書類を作る  
 　「npx tsc --init」  
 ※これが無いとTypeScriptだと認識せずに動かない場合もある  
-※コマンドを実行したフォルダーに書類が出来る
+※コマンドを実行したフォルダーに書類が出来る  
+
+### スマホのアプリを（React Native + TypeScript + expoなどで）作る
+・expoでプロジェクトを作成
+　「npx create-expo-app MyProject --template expo-template-blank-typescript」  
+
+・ プロジェクトをまとめる（package.jsonを作成）  
+　「npm init -y」  
+
+・ ビルドツールのインストール（最初の1回のみ）  
+　「npm install -g eas-cli」  
+
+・ Android用のファイル (.apk / .aab)を作る  
+　「eas build --platform android」  
+※.apkはスマホに直接入れるテスト（動作確認）用で、.aabはGoogleストアで公開用（完成品）  
+
+・ iPhone（iOS）用のファイル (.ipa)を作る  
+　「eas build --platform ios」  
