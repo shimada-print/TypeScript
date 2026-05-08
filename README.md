@@ -6,7 +6,8 @@ TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け
 
 また、エディタによるコード補完が強力に働くため、開発スピードと品質を同時に高められるのが強みです。現代のシステム開発において、実行時までエラーが判明しないリスクを避け、安全かつ効率的にコードを書き進めるための「業界標準」のツールとして定着しています  
 
-## TypeScript関連コマンド  
+## TypeScript関連コマンド
+### インストールや環境設定
 ・TypeScriptをインストール 
 　「npm install -g typescript」  
  ※この前にnode.jsをインストールしてください  
@@ -16,6 +17,7 @@ TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け
 　「npx tsc -v」  
 ※現実的にはnpxは使うので「npx tsc -v」  
 
+### プログラミングをする
 ・TypeScript書類.tsなどを実行  
 　「npx ts-node TypeScript書類.ts」  
 
