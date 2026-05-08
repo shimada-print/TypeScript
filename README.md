@@ -24,28 +24,30 @@ npx tsc -v
 ※現実的にはnpxは使うので「`npx tsc -v`」  
 
 ### プログラミングをする
-* TypeScript書類.tsなどを実行  
+現実的にTypeScriptで開発で、多く使用する書類名は「App.tsx」です。
+
+* TypeScriptで実行  
 ```bash
-npx ts-node TypeScript書類.ts
+npx ts-node  App.tsx
 ```
 
-* TypeScript書類.tsなどをJavaScriptにコンパイル  
+* JavaScriptにコンパイル  
 ```bash
-tsc TypeScript書類.ts
+tsc App.tsx
 ```
 
-* TypeScript書類.jsなどを実行  
+* JavaScript書類を実行  
 ```bash
-node TypeScript書類.js
+node App.jsx
 ```
 
-* TypeScript書類.tsなどをGo言語でコンパイル  
+* Go言語でコンパイル  
 ```bash
-tsgo TypeScript書類.ts
+tsgo App.tsx
 ```
 ※TypeScript ver.7 ベータ版（2026年4月）からリリースで、劇的に速度が早くなる
 
-* TypeScriptの設定書類「tsconfig.json」書類を作る  
+* 設定書類「tsconfig.json」書類を作る  
 ```bash
 npx tsc --init
 ```
@@ -168,7 +170,6 @@ npx tsc src/*.ts
 
 ```bash
 npx tsc --init
-
 ```
 
 `.ts`（ロジック）も `.tsx`（UI部品）も、このコマンド一つでまとめてJavaScriptに変換し、実行可能な状態に整えることができます。
