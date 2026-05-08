@@ -9,53 +9,79 @@ function add(a: number, b: number) { ... }
 ## TypeScript関連コマンド
 ### インストールや環境設定
 * TypeScriptをインストール  
-`npm install -g typescript`  
- ※この前にnode.jsをインストールしてください  
+```bash
+npm install -g typescript
+```
+※この前にnode.jsをインストールしてください  
 
 * インストールできたかをバージョンで確認  
-`tsc -v`  
-`npx tsc -v`  
+```bash
+tsc -v
+```
+```bash
+npx tsc -v
+```
 ※現実的にはnpxは使うので「`npx tsc -v`」  
 
 ### プログラミングをする
 * TypeScript書類.tsなどを実行  
-`npx ts-node TypeScript書類.ts`  
+```bash
+npx ts-node TypeScript書類.ts
+```
 
 * TypeScript書類.tsなどをJavaScriptにコンパイル  
-`tsc TypeScript書類.ts`  
+```bash
+tsc TypeScript書類.ts
+```
 
 * TypeScript書類.jsなどを実行  
-`node TypeScript書類.js`  
+```bash
+node TypeScript書類.js
+```
 
 * TypeScript書類.tsなどをGo言語でコンパイル  
-`tsgo TypeScript書類.ts`  
+```bash
+tsgo TypeScript書類.ts
+```
 ※TypeScript ver.7 ベータ版（2026年4月）からリリースで、劇的に速度が早くなる
 
 * TypeScriptの設定書類「tsconfig.json」書類を作る  
-`npx tsc --init`  
+```bash
+npx tsc --init
+```
 ※これが無いとTypeScriptだと認識せずに動かない場合もある  
 ※コマンドを実行したフォルダーに書類が出来る  
 
 ### スマホのアプリを（React Native + TypeScript + expoなどで）開発し公開
 * expoでプロジェクトを作成  
-`npx create-expo-app MyProject --template expo-template-blank-typescript`  
+```bash
+npx create-expo-app MyProject --template expo-template-blank-typescript
+```
 
 * プロジェクトをまとめる（package.jsonを作成）  
-`npm init -y`  
+```bash
+npm init -y
+```
 
 * コンパイルする
 上記の「TypeScript書類.tsなどをJavaScriptにコンパイル」か、  
 下記の「一括でコンパイルする（実際の大規模システムなどでの開発方法）」を参照
 
 * ビルドツールのインストール（最初の1回のみ）  
-`npm install -g eas-cli`  
+```bash
+npm install -g eas-cli
+```  
 
 * Android用のファイル (.apk / .aab)を作る  
-`eas build --platform android`  
+```bash
+eas build --platform android
+```
 ※.apkはスマホに直接入れるテスト（動作確認）用で、.aabはGoogleストアで公開用（完成品）  
 
 * iPhone（iOS）用のファイル (.ipa)を作る  
-`eas build --platform ios`  
+```bash
+eas build --platform ios
+```
 
 ### なぜReact NativeでTypeScriptを使うのか？　～TypeScriptは開発しやすい～
 
