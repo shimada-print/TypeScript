@@ -7,20 +7,29 @@ TypeScriptとは、JavaScriptに「型」の概念を追加した静的型付け
 また、エディタによるコード補完が強力に働くため、開発スピードと品質を同時に高められるのが強みです。現代のシステム開発において、実行時までエラーが判明しないリスクを避け、安全かつ効率的にコードを書き進めるための「業界標準」のツールとして定着しています  
 
 ## TypeScript関連コマンド  
-TypeScript書類.tsなどを実行  
-「npx ts-node TypeScript書類.ts」  
+・TypeScript書類.tsなどを実行  
+　「npm install -g typescript」  
+ ※この前にnode.jsをインストールしてください  
 
-TypeScript書類.tsなどをJavaScriptにコンパイル  
-「tsc TypeScript書類.ts」  
+・インストールできたかをバージョンで確認  
+　「tsc -v」  
+　「npx tsc -v」  
+※現実的にはnpxは使うので「npx tsc -v」  
 
-TypeScript書類.jsなどを実行  
-「node TypeScript書類.js」  
+・TypeScript書類.tsなどを実行  
+　「npx ts-node TypeScript書類.ts」  
 
-TypeScript書類.tsなどをGo言語でコンパイル  
-「tsgo TypeScript書類.ts」  
+・TypeScript書類.tsなどをJavaScriptにコンパイル  
+　「tsc TypeScript書類.ts」  
+
+・TypeScript書類.jsなどを実行  
+　「node TypeScript書類.js」  
+
+・TypeScript書類.tsなどをGo言語でコンパイル  
+　「tsgo TypeScript書類.ts」  
 ※TypeScript ver.7 ベータ版（2026年4月）から
 
-TypeScriptの設定書類「tsconfig.json」書類を作る  
-「npx tsc --init」  
+・TypeScriptの設定書類「tsconfig.json」書類を作る  
+　「npx tsc --init」  
 ※これが無いとTypeScriptだと認識せずに動かない場合もある  
 ※コマンドを実行したフォルダーに書類が出来る
