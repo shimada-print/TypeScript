@@ -1,4 +1,5 @@
-👉TypeScript関連コマンド  
+# TypeScript
+## TypeScript関連コマンド  
 TypeScript書類.tsなどを実行  
 「npx ts-node TypeScript書類.ts」  
 
